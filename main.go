@@ -9,7 +9,6 @@ import (
 )
 
 func main() {
-//test
 	l, r := handlers.LayoutAndRenderer()
 	s := new(Stack)
 	s.Middleware(l, r)
